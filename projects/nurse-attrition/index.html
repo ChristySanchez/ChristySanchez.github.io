@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Well-Being Program &amp; Nurse Attrition · Christy Sanchez</title>
+<meta name="description" content="Case study: a simple linear regression on 36 months of data shows that nurse participation in a hospital well-being program explains about two-thirds of the variation in nurse attrition.">
+<meta property="og:title" content="Does a well-being program keep nurses from leaving?">
+<meta property="og:description" content="A linear regression case study by Christy Sanchez.">
+<meta property="og:image" content="https://crispymcnuggetz.github.io/assets/projects/nurse-attrition/thumbnail.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Libre+Franklin:wght@400..700&amp;display=swap">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../">Christy Sanchez</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../../#projects">Projects</a>
+      <a href="../../#about">About</a>
+      <a href="../../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Case study · Data-Driven Decision-Making</p>
+      <h1>Does a well-being program keep nurses from leaving?</h1>
+      <p class="lede">A hospital had to decide whether to keep funding its employee well-being program. I used a simple linear regression on 36 months of data to test whether nurse participation is linked to nurse attrition, then turned the results into a recommendation for leadership.</p>
+      <dl class="meta">
+        <div><dt>Context</dt><dd>Course case study (WGU C207)</dd></div>
+        <div><dt>Tools</dt><dd>Excel, Analysis ToolPak</dd></div>
+        <div><dt>Methods</dt><dd>Simple linear regression, hypothesis testing</dd></div>
+        <div><dt>Deliverables</dt><dd>Written report, slide deck, infographic</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The situation</p>
+        <h2>Nurses were leaving. Could a well-being program help?</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="num" aria-hidden="true">01</span><div><h3>Business problem</h3><p>Nurse turnover was higher than for any other professional role at the hospital. Nurses who left cited 12-hour shifts, overtime and stress.</p></div></li>
+        <li><span class="num" aria-hidden="true">02</span><div><h3>Hospital program</h3><p>For three years, a voluntary well-being program offered monthly activities with a trainer, a massage therapist and a yoga instructor, plus a $50 quarterly bonus for consistent participation.</p></div></li>
+        <li><span class="num" aria-hidden="true">03</span><div><h3>Funding decision</h3><p>Leadership was reviewing the program’s five-year funding and needed to know whether it was working.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The question &amp; approach</p>
+        <h2>Is nurse participation linked to lower nurse attrition?</h2>
+      </div>
+      <div class="grid">
+        <div class="panel">
+          <p class="label">Data</p>
+          <p>36 monthly observations of two variables: the nurse participation rate in the program (X) and the nurse attrition rate (Y).</p>
+        </div>
+        <div class="panel">
+          <p class="label">Method</p>
+          <p>Simple linear regression, testing the null hypothesis of no relationship at the standard 0.05 significance level.</p>
+        </div>
+        <div class="panel">
+          <p class="label">Scope</p>
+          <p>The analysis shows whether the two move together. It doesn’t claim the program causes the change.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What I found</p>
+        <h2>As participation rose, attrition fell.</h2>
+      </div>
+      <div class="grid" style="margin-bottom: 32px">
+        <div class="panel">
+          <p class="stat">67%</p>
+          <p>of the month-to-month variation in nurse attrition is explained by program participation (R² = 0.669).</p>
+        </div>
+        <div class="panel">
+          <p class="stat">1 fewer</p>
+          <p>nurse leaves, out of every 100, for each 10 more who join the program (slope = −0.1138).</p>
+        </div>
+        <div class="panel">
+          <p class="stat">p &lt; 0.001</p>
+          <p>The relationship is statistically significant, so I rejected the null hypothesis.</p>
+        </div>
+      </div>
+      <div class="figure-pair">
+        <figure>
+          <a href="../../assets/projects/nurse-attrition/infographic-page1-scenario.png"><img src="../../assets/projects/nurse-attrition/infographic-page1-scenario.png" alt="Infographic page 1: the scenario. Nurses were leaving faster than any other role; the hospital launched a voluntary well-being program; leaders must decide on five more years of funding; research question about participation and attrition." width="1632" height="2112" loading="lazy"></a>
+          <figcaption>Infographic, page 1: the scenario.</figcaption>
+        </figure>
+        <figure>
+          <a href="../../assets/projects/nurse-attrition/infographic-page2-findings.png"><img src="../../assets/projects/nurse-attrition/infographic-page2-findings.png" alt="Infographic page 2: the findings. A scatter plot of 36 months with a downward fitted line, key statistics, yearly averages showing participation more than doubled while attrition more than halved, limitations and the recommendation." width="1632" height="2112" loading="lazy"></a>
+          <figcaption>Infographic, page 2: the findings. Tap either page to see it full size.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Recommendation &amp; limitations</p>
+        <h2>Keep investing, and look deeper.</h2>
+      </div>
+      <div class="grid">
+        <div class="panel dark">
+          <p class="label">Recommendation</p>
+          <h3>Continue investing in the well-being program, and expand it.</h3>
+          <ul class="plain">
+            <li>Improve the program, building on its results.</li>
+            <li>Market it to staff to raise awareness.</li>
+            <li>Run a multiple regression to find other drivers of attrition.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <p class="label">Limitations</p>
+          <h3>One variable can’t tell the whole story.</h3>
+          <p>Attrition likely has other drivers, such as understaffing, pay and management. Surveys and exit interviews would help identify them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Skills shown</p>
+        <h2>What this project demonstrates</h2>
+      </div>
+      <div class="grid">
+        <div class="panel"><h3>Statistical analysis</h3><p>Regression, goodness of fit, significance testing and interpreting coefficients.</p></div>
+        <div class="panel"><h3>Plain-language insight</h3><p>Translating statistics into findings non-technical decision-makers can use.</p></div>
+        <div class="panel"><h3>Data storytelling</h3><p>A slide deck and a two-page infographic built around one clear message.</p></div>
+      </div>
+      <p class="small" style="margin-top: 20px">The same approach applies to marketing questions, such as whether campaign engagement predicts customer retention.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Downloads</p>
+        <h2>See the full materials</h2>
+      </div>
+      <div class="actions">
+        <a class="button" href="../../assets/projects/nurse-attrition/nurse-well-being-infographic.pdf">Infographic (PDF, 2 pages)</a>
+        <a class="button secondary" href="../../">Back to all projects</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Christy Sanchez</span>
+    <span>Course case study, WGU C207</span>
+  </div>
+</footer>
+</body>
+</html>
