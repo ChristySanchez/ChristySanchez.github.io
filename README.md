@@ -1,6 +1,6 @@
 # Christy Sanchez · Marketing & Data Analytics Portfolio
 
-Live site: **https://christysanchez.github.io**
+Live site: **https://christysanchez.github.io** · [LinkedIn](https://www.linkedin.com/in/christyjsanchez/)
 
 I hold a BBA in Marketing and an MBA, and I've taught myself SQL and analytics. This portfolio collects projects where I take a business question, analyze the data, and turn the results into a clear recommendation.
 
